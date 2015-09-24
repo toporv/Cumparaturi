@@ -1,0 +1,987 @@
+<resources>
+    <string name="app_name">Kumparaturi</string>
+    <string name="action_settings">Settings</string>
+    <string name="categorie_view">Categorie</string>
+    <string name="articol_view">Articole</string>
+    <string name="cumparaturi">Lista cumparaturi</string>
+    <string name="afiseaza_Button">Afiseaza lista</string>
+    <string name="sterge_Button">Sterge lista</string>
+    <string-array name="Categorii">
+        <item>Uzuale</item>
+        <item>Auto</item>
+        <item>Bauturi</item>
+        <item>Cafea</item>
+        <item>Carne</item>
+        <item>Chimice</item>
+        <item>Condimente</item>
+        <item>Congelate</item>
+        <item>Conserve</item>
+        <item>Copii</item>
+        <item>Cosmetice</item>
+        <item>Dulciuri</item>
+        <item>Electrice</item>
+        <item>Fructe</item>
+        <item>Incaltaminte</item>
+        <item>Lactate</item>
+        <item>Legume</item>
+        <item>Menaj</item>
+        <item>Panificatie</item>
+        <item>Papetarie</item>
+        <item>Petshop</item>
+        <item>Saratele</item>
+        <item>Scule</item>
+        <item>Semipreparate</item>
+        <item>Textile</item>
+    </string-array>
+    <string-array name="Raioane">
+        <item>raionUzuale</item>
+        <item>raionAuto</item>
+        <item>raionBauturi</item>
+        <item>raionCafea</item>
+        <item>raionCarne</item>
+        <item>raionChimice</item>
+        <item>raionCondimente</item>
+        <item>raionCongelate</item>
+        <item>raionConserve</item>
+        <item>raionCopii</item>
+        <item>raionCosmetice</item>
+        <item>raionDulciuri</item>
+        <item>raionElectrice</item>
+        <item>raionFructe</item>
+        <item>raionIncaltaminte</item>
+        <item>raionLactate</item>
+        <item>raionLegume</item>
+        <item>raionMenaj</item>
+        <item>raionPanificatie</item>
+        <item>raionPapetarie</item>
+        <item>raionPetshop</item>
+        <item>raionSaratele</item>
+        <item>raionScule</item>
+        <item>raionSemipreparate</item>
+        <item>raionTextile</item>
+    </string-array>
+    <string-array name="raionCategorii">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="Uzuale">
+        <item>Blat</item>
+        <item>Bulion</item>
+        <item>Faina</item>
+        <item>Fidea</item>
+        <item>Gris</item>
+        <item>Iaurt</item>
+        <item>Malai</item>
+        <item>Orez</item>
+        <item>Otet</item>
+        <item>Lapte</item>
+        <item>Oua</item>
+        <item>Pasta tomate</item>
+        <item>Paste</item>
+        <item>Paine</item>
+        <item>Pesmet</item>
+        <item>Sare</item>
+        <item>Sacosa</item>
+        <item>Tigari</item>
+        <item>Ulei</item>
+        <item>Zahar</item>
+    </string-array>
+    <string-array name="raionUzuale">
+        <item>14</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>18</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>18</item>
+        <item>18</item>
+        <item>5</item>
+        <item>5</item>
+        <item>11</item>
+        <item>5</item>
+        <item>5</item>
+        <item>30</item>
+        <item>30</item>
+        <item>5</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Bauturi">
+        <item>Apa gazoasa</item>
+        <item>Apa plata</item>
+        <item>Bere</item>
+        <item>Bere fara alcool</item>
+        <item>Ceai PET</item>
+        <item>Lichior</item>
+        <item>Suc</item>
+        <item>Suc natural</item>
+        <item>Tarie</item>
+        <item>Vin</item>
+    </string-array>
+    <string-array name="raionBauturi">
+        <item>22</item>
+        <item>22</item>
+        <item>22</item>
+        <item>22</item>
+        <item>22</item>
+        <item>24</item>
+        <item>22</item>
+        <item>22</item>
+        <item>24</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="Cafea">
+        <item>Cacao</item>
+        <item>Cafea</item>
+        <item>Cappucino</item>
+        <item>Ceai</item>
+        <item>Ciocolata calda</item>
+        <item>Ness</item>
+        <item>3 in 1</item>
+    </string-array>
+    <string-array name="raionCafea">
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="Carne">
+        <item>Afumaturi vrac</item>
+        <item>Carne porc</item>
+        <item>Carne tocata</item>
+        <item>Carne tocata refrig.</item>
+        <item>Carne vita</item>
+        <item>Carnati vrac</item>
+        <item>Cremwurst vrac</item>
+        <item>Ficat pasare refrig.</item>
+        <item>Ficat porc</item>
+        <item>Maruntaie porc/vita</item>
+        <item>Maruntaie pasare refrig.</item>
+        <item>Membrane</item>
+        <item>Mici refrig</item>
+        <item>Mix gratar refrig.</item>
+        <item>Muschi vrac</item>
+        <item>Pasare refrig.</item>
+        <item>Pastrama vrac</item>
+        <item>Piept pasare refrif.</item>
+        <item>Pulpe pasare refrig.</item>
+        <item>Slanina vrac</item>
+        <item>Salam vrac</item>
+        <item>Sunca vrac</item>
+        <item>Tacam pasare refrig.</item>
+    </string-array>
+    <string-array name="raionCarne">
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>16</item>
+        <item>16</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="Condimente">
+        <item>Boia ardei</item>
+        <item>Busuioc</item>
+        <item>Cimbru</item>
+        <item>Coriandru</item>
+        <item>Cuisoare</item>
+        <item>Curry</item>
+        <item>Dafin</item>
+        <item>Delikat</item>
+        <item>Ghimbir</item>
+        <item>Ketchup</item>
+        <item>Knorr</item>
+        <item>Leustean</item>
+        <item>Mac</item>
+        <item>Mustar</item>
+        <item>Nucsoara</item>
+        <item>Oregano</item>
+        <item>Piper</item>
+        <item>Rozmarin</item>
+        <item>Scortisoara</item>
+        <item>Sos paste</item>
+        <item>Sos soia</item>
+        <item>Usturoi</item>
+    </string-array>
+    <string-array name="raionCondimente">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Congelate">
+        <item>Ficat pasare cong.</item>
+        <item>Gustari cong.</item>
+        <item>Legume cong.</item>
+        <item>Mazare cong.</item>
+        <item>Pasare cong.</item>
+        <item>Pastai cong.</item>
+        <item>Peste cong.</item>
+        <item>Piept pasare cong.</item>
+        <item>Pipote pasare cong.</item>
+        <item>Pulpe pasare cong.</item>
+    </string-array>
+    <string-array name="raionCongelate">
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Conserve">
+        <item>Carne conserva</item>
+        <item>Castraveti murati</item>
+        <item>Castraveti otet</item>
+        <item>Compot</item>
+        <item>Dulceata</item>
+        <item>Gogosari otet</item>
+        <item>Mazare conserva</item>
+        <item>Masline</item>
+        <item>Masline amb</item>
+        <item>Mix legume conserva</item>
+        <item>Muraturi</item>
+        <item>Pate</item>
+        <item>Pastai conserva</item>
+        <item>Peste conserva</item>
+        <item>Porumb conserva</item>
+        <item>Tocana</item>
+        <item>Varza murata</item>
+        <item>Zacusca</item>
+    </string-array>
+    <string-array name="raionConserve">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>11</item>
+        <item>4</item>
+        <item>4</item>
+        <item>13</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Copii">
+        <item>Biberon</item>
+        <item>Cana copii</item>
+        <item>Crema copii</item>
+        <item>Jucarii copii</item>
+        <item>Pasta dinti copii</item>
+        <item>Perie dinti copii</item>
+        <item>Pudra copii</item>
+        <item>Sapun copi</item>
+        <item>Scutece</item>
+        <item>Sampon copii</item>
+        <item>Servetele umede</item>
+        <item>Tacamuri copii</item>
+        <item>Tetine</item>
+        <item>Vesela copii</item>
+    </string-array>
+    <string-array name="raionCopii">
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Dulciuri">
+        <item>Batoane</item>
+        <item>Bomboane fructe</item>
+        <item>Bomboane ciocolata</item>
+        <item>Biscuiti simpli</item>
+        <item>Biscuiti crema</item>
+        <item>Budinca</item>
+        <item>Cereale</item>
+        <item>Chec</item>
+        <item>Ciocolata</item>
+        <item>Cozonac</item>
+        <item>Crema ciocolata</item>
+        <item>Croissant</item>
+        <item>Dropsuri</item>
+        <item>Esente</item>
+        <item>Frisca</item>
+        <item>Guma mestecat</item>
+        <item>Inghetata</item>
+        <item>Miere</item>
+        <item>Migdale</item>
+        <item>Musli</item>
+        <item>Napolitane</item>
+        <item>Nuca cocos</item>
+        <item>Praf de copt</item>
+        <item>Prajituri</item>
+        <item>Pufarine</item>
+        <item>Rahat</item>
+        <item>Stafide</item>
+    </string-array>
+    <string-array name="raionDulciuri">
+        <item>11</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>6</item>
+        <item>15</item>
+        <item>11</item>
+        <item>15</item>
+        <item>11</item>
+        <item>11</item>
+        <item>11</item>
+        <item>15</item>
+        <item>6</item>
+        <item>6</item>
+        <item>30</item>
+        <item>30</item>
+        <item>11</item>
+        <item>6</item>
+        <item>15</item>
+        <item>15</item>
+        <item>6</item>
+        <item>6</item>
+        <item>11</item>
+        <item>15</item>
+        <item>6</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Fructe">
+        <item>Flori</item>
+        <item>Afine</item>
+        <item>Ananas</item>
+        <item>Avogado</item>
+        <item>Banane</item>
+        <item>Caise</item>
+        <item>Capsuni</item>
+        <item>Cirese</item>
+        <item>Clementine</item>
+        <item>Curmale</item>
+        <item>Fragi</item>
+        <item>Grapefruit</item>
+        <item>Gutui</item>
+        <item>Kiwi</item>
+        <item>Lamai</item>
+        <item>Lime</item>
+        <item>Mandarine</item>
+        <item>Mere</item>
+        <item>Mure</item>
+        <item>Nectarine</item>
+        <item>Nuci</item>
+        <item>Papaya</item>
+        <item>Pere</item>
+        <item>Pepene</item>
+        <item>Piersici</item>
+        <item>Pomelo</item>
+        <item>Portocale</item>
+        <item>Prune</item>
+        <item>Rodii</item>
+        <item>Smochine</item>
+        <item>Struguri</item>
+        <item>Zarzare</item>
+        <item>Zmeura</item>
+    </string-array>
+    <string-array name="raionFructe">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="Lactate">
+        <item>Branza</item>
+        <item>Branza burduf</item>
+        <item>Branza topita</item>
+        <item>Cascaval</item>
+        <item>Cascaval amb.</item>
+        <item>Margarina</item>
+        <item>Smantana</item>
+        <item>Telemea </item>
+        <item>Telemea amb</item>
+        <item>Unt</item>
+    </string-array>
+    <string-array name="raionLactate">
+        <item>13</item>
+        <item>18</item>
+        <item>18</item>
+        <item>13</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>13</item>
+        <item>18</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="Legume">
+        <item>Ardei</item>
+        <item>Cartofi</item>
+        <item>Castraveti</item>
+        <item>Ceapa</item>
+        <item>Ciuperci</item>
+        <item>Fasole</item>
+        <item>Hrean</item>
+        <item>Mazare</item>
+        <item>Morcovi</item>
+        <item>Pastai</item>
+        <item>Pastarnac</item>
+        <item>Patrunjel</item>
+        <item>Ridichi</item>
+        <item>Rosii</item>
+        <item>Salata</item>
+        <item>Telina</item>
+        <item>Usturoi</item>
+        <item>Varza</item>
+    </string-array>
+    <string-array name="raionLegume">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="Panificatie">
+        <item>Chifle</item>
+        <item>Drojdie</item>
+        <item>Pizza</item>
+        <item>Paine libaneza</item>
+        <item>Foi placinta</item>
+    </string-array>
+    <string-array name="raionPanificatie">
+        <item>11</item>
+        <item>18</item>
+        <item>14</item>
+        <item>18</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="Saratele">
+        <item>Alune</item>
+        <item>Chips</item>
+        <item>Covrigei</item>
+        <item>Floricele</item>
+        <item>Pufuleti</item>
+        <item>Salatini</item>
+        <item>Saratele</item>
+        <item>Seminte</item>
+        <item>Snacks</item>
+        <item>Stixuri</item>
+    </string-array>
+    <string-array name="raionSaratele">
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="Semipreparate">
+        <item>Carnati amb.</item>
+        <item>Cremwurst amb.</item>
+        <item>Icre amb.</item>
+        <item>Leibar amb.</item>
+        <item>Muschi amb.</item>
+        <item>Parizer amb</item>
+        <item>Pastrama amb</item>
+        <item>Salam amb</item>
+        <item>Sunca amb</item>
+        <item>Toba amb.</item>
+    </string-array>
+    <string-array name="raionSemipreparate">
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="Auto">
+        <item>Accesorii auto</item>
+        <item>Anvelope</item>
+        <item>Becuri auto</item>
+        <item>Canistra</item>
+        <item>Chei auto</item>
+        <item>Cric</item>
+        <item>Lichid parbriz</item>
+        <item>Pompa auto</item>
+        <item>Redresor auto</item>
+        <item>Sampon auto</item>
+        <item>Stergator parbriz</item>
+        <item>Ulei motor</item>
+    </string-array>
+    <string-array name="raionAuto">
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="Chimice">
+        <item>Balsam rufe</item>
+        <item>Batiste unica fol.</item>
+        <item>Burete vase</item>
+        <item>Clor</item>
+        <item>Cos gunoi</item>
+        <item>Cos rufe</item>
+        <item>Crema ghete</item>
+        <item>Degresant</item>
+        <item>Detergent pardoseli</item>
+        <item>Detergent rufe</item>
+        <item>Detergent vase</item>
+        <item>Burete vase</item>
+        <item>Detartrant</item>
+        <item>Dezinfectant</item>
+        <item>Faras</item>
+        <item>Galeata</item>
+        <item>Hartie igienica</item>
+        <item>Laveta</item>
+        <item>Lumanari</item>
+        <item>Matura</item>
+        <item>Mop</item>
+        <item>Odorizant</item>
+        <item>Perie</item>
+        <item>Perie ghete</item>
+        <item>Prosoape bucatarie</item>
+        <item>Saci menajeri</item>
+    </string-array>
+    <string-array name="raionChimice">
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>30</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="Cosmetice">
+        <item>Absorbante</item>
+        <item>Aftershave</item>
+        <item>Aparat ras</item>
+        <item>Antiperspirant</item>
+        <item>Balsam par</item>
+        <item>Crema piele</item>
+        <item>Crema ras</item>
+        <item>Conditioner</item>
+        <item>Demachiant</item>
+        <item>Deodorant</item>
+        <item>Fard</item>
+        <item>Lame ras</item>
+        <item>Pasta dinti</item>
+        <item>Periuta dinti</item>
+        <item>Prezervative</item>
+        <item>Ruj</item>
+        <item>Sapun</item>
+        <item>Saruri baie</item>
+        <item>Sampon</item>
+        <item>Servetele</item>
+        <item>Trusa machiaj</item>
+        <item>Trusa manichiura</item>
+        <item>Vata</item>
+    </string-array>
+    <string-array name="raionCosmetice">
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>30</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="Electrice">
+        <item>Adaptoare</item>
+        <item>Baterii</item>
+        <item>Becuri</item>
+        <item>Blender</item>
+        <item>Bormasina</item>
+        <item>Cabluri</item>
+        <item>Fier calcat</item>
+        <item>Fierastrau electric</item>
+        <item>Flex</item>
+        <item>Imprimanta</item>
+        <item>IT</item>
+        <item>Mixer</item>
+        <item>Prelungitor</item>
+        <item>Radio</item>
+        <item>Televizor</item>
+        <item>Toaster</item>
+        <item>Veioza</item>
+    </string-array>
+    <string-array name="raionElectrice">
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="Incaltaminte">
+        <item>Adidas</item>
+        <item>Bocanci</item>
+        <item>Cizme</item>
+        <item>Ghete</item>
+        <item>Pantofi</item>
+        <item>Sandale</item>
+        <item>Slapi</item>
+    </string-array>
+    <string-array name="raionIncaltaminte">
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="Menaj">
+        <item>Cana</item>
+        <item>Cutit</item>
+        <item>Farfurie</item>
+        <item>Furculita</item>
+        <item>Lingura</item>
+        <item>Oala</item>
+        <item>Pahar</item>
+        <item>Tacamuri</item>
+        <item>Tigai</item>
+        <item>Unelte bucatatarie</item>
+        <item>Vase termorezistente</item>
+    </string-array>
+    <string-array name="raionMenaj">
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="Papetarie">
+        <item>Acuarele</item>
+        <item>Agrafe</item>
+        <item>Carton</item>
+        <item>Carti</item>
+        <item>Creioane</item>
+        <item>Creioane colorate</item>
+        <item>Creta</item>
+        <item>Ghiozdan</item>
+        <item>Guase</item>
+        <item>Hartie</item>
+        <item>Hartie colorata</item>
+        <item>Instrumente desen</item>
+        <item>Jucarii</item>
+        <item>Lipici</item>
+        <item>Penar</item>
+        <item>Pix</item>
+        <item>Plastilina</item>
+        <item>Radiera</item>
+        <item>Stilou</item>
+    </string-array>
+    <string-array name="raionPapetarie">
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="Petshop">
+        <item>Accesorii animale</item>
+        <item>Asternut animale</item>
+        <item>Hrana animale</item>
+        <item>Igiena animale</item>
+        <item>Ustensile animale</item>
+        <item>Vesela animale</item>
+    </string-array>
+    <string-array name="raionPetshop">
+        <item>29</item>
+        <item>29</item>
+        <item>29</item>
+        <item>29</item>
+        <item>29</item>
+        <item>29</item>
+    </string-array>
+    <string-array name="Scule">
+        <item>Aparate masura</item>
+        <item>Aspersor</item>
+        <item>Carbuni</item>
+        <item>Cheie</item>
+        <item>Ciocan</item>
+        <item>Cleste</item>
+        <item>Dibluri</item>
+        <item>Furtun</item>
+        <item>Gratar</item>
+        <item>Mobilier</item>
+        <item>Patent</item>
+        <item>Pistol lipit</item>
+        <item>Piulite</item>
+        <item>Scule constructii</item>
+        <item>Surubelnita</item>
+        <item>Suruburi</item>
+        <item>Trusa scule</item>
+    </string-array>
+    <string-array name="raionScule">
+        <item>20</item>
+        <item>26</item>
+        <item>26</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>26</item>
+        <item>26</item>
+        <item>26</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="Textile">
+        <item>Bluza</item>
+        <item>Camasa</item>
+        <item>Cearsaf</item>
+        <item>Ciorapi</item>
+        <item>Chilot</item>
+        <item>Cuvertura</item>
+        <item>Lenjerie</item>
+        <item>Maieu</item>
+        <item>Pantalon</item>
+        <item>Patura</item>
+        <item>Prosop</item>
+        <item>Sosete</item>
+        <item>Tricou</item>
+    </string-array>
+    <string-array name="raionTextile">
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+        <item>27</item>
+    </string-array>
+    <string-array name="Magazin">
+        <item>Kaufland Nicolina</item>
+        <item>Kaufland Pavlov</item>
+        <item>Kaufland Pacurari</item>
+        <item>Kaufland Tudor</item>
+        <item>Acasa</item>
+    </string-array>
+    <string-array name="Latitudine">
+        <item>47.1439680</item>
+        <item>47.1611970</item>
+        <item>47.1722140</item>
+        <item>47.1524280</item>
+        <item>47.1480849</item>
+    </string-array>
+    <string-array name="Longitudine">
+        <item>27.5874360</item>
+        <item>27.5762010</item>
+        <item>27.5369480</item>
+        <item>27.6050600</item>
+        <item>27.5736235</item>
+    </string-array>
+</resources>

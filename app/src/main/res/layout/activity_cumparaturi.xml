@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".CumparaturiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.25">
+        <TextView
+            android:id="@+id/categorieTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/categorie_view"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/articolTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/articol_view"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="4dp"
+                android:background="@android:color/white"
+                android:id="@+id/categorie" />
+
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:choiceMode="multipleChoice"
+                android:layout_marginLeft="4dp"
+                android:background="@android:color/white"
+                android:id="@+id/articol"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5">
+        <Button
+            android:id="@+id/afiseaza"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            android:text="@string/afiseaza_Button"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:enabled="true" />
+        <Button
+            android:id="@+id/sterge"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:text="@string/sterge_Button"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:enabled="true" />
+    </LinearLayout>
+</LinearLayout>
